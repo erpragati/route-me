@@ -1,0 +1,33 @@
+{
+  "Singapore" :
+  {
+    "13" :
+    {
+      "tileX" : 6454,
+      "finalTileX" : 6462,
+      "tileY" : 4062,
+      "finalTileY" : 4067
+    },
+    "14" :
+    {
+      "tileX" : 12908,
+      "finalTileX" : 12925,
+      "tileY" : 8125,
+      "finalTileY" : 8135
+    },
+    "15" :
+    {
+      "tileX" : 25817,
+      "finalTileX" : 25851,
+      "tileY" : 16250,
+      "finalTileY" : 16271
+    },
+    "16" :
+    {
+      "tileX" : 51634,
+      "finalTileX" : 51703,
+      "tileY" : 32500,
+      "finalTileY" : 32542
+    }
+  }
+}

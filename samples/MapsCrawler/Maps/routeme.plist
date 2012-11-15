@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>caches</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>db-cache</string>
+			<key>capacity</key>
+			<integer>1048576</integer>
+			<key>useCachesDirectory</key>
+			<false/>
+			<key>expiryPeriod</key>
+			<integer>2592000</integer>
+			<key>strategy</key>
+			<string>LRU</string>
+			<key>minimalPurge</key>
+			<integer>131072</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
