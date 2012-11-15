@@ -42,11 +42,19 @@
 
 - (NSURL *)URLForTile:(RMTile)tile
 {
-	NSAssert4(((tile.zoom >= self.minZoom) && (tile.zoom <= self.maxZoom)),
-			  @"%@ tried to retrieve tile with zoomLevel %d, outside source's defined range %f to %f", 
+    NSAssert4(((tile.zoom >= self.minZoom) && (tile.zoom <= self.maxZoom)),
+			  @"%@ tried to retrieve tile with zoomLevel %d, outside source's defined range %f to %f",
 			  self, tile.zoom, self.minZoom, self.maxZoom);
-
-	return [NSURL URLWithString:[NSString stringWithFormat:@"http://otile1.mqcdn.com/tiles/1.0.0/osm/%d/%d/%d.png", tile.zoom, tile.x, tile.y]];
+    
+    //Switch between otile1 - otile4
+    static NSInteger subdomain = 0;
+    subdomain++;
+    
+    if (subdomain > 4)
+        subdomain = 1;
+    
+    NSString *urlString = [NSString stringWithFormat:@"http://otile%d.mqcdn.com/tiles/1.0.0/osm/%d/%d/%d.png", subdomain, tile.zoom, tile.x, tile.y];
+	return [NSURL URLWithString:urlString];
 }
 
 - (NSString *)uniqueTilecacheKey
