@@ -214,14 +214,14 @@ static RMSphericalTrapezium singaporeBounds = (RMSphericalTrapezium) { (CLLocati
 
 #pragma mark - Delegate methods
 
-- (void)afterMapMove:(RMMapView *)map {
+- (void)afterMapMove:(RMMapView *)map byUser:(BOOL)wasUserAction {
   if (floor(map.centerCoordinate.latitude) == floor(self.north) && floor(self.mapView.centerCoordinate.longitude) == floor(self.west))
     [self startCrawling];
   
   [self updateInfo];
 }
 
-- (void)afterMapZoom:(RMMapView *)map {
+- (void)afterMapZoom:(RMMapView *)map byUser:(BOOL)wasUserAction {
   [self updateInfo];
 }
 

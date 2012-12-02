@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		019244DC16549BE00071F8BC /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 019244D8165499E60071F8BC /* libMapView.a */; };
 		0192450F16549F490071F8BC /* routeme.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0192450E16549F490071F8BC /* routeme.plist */; };
+		309C8834166BC46F00E798E2 /* HeadingAngleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8824166BC46F00E798E2 /* HeadingAngleSmall.png */; };
+		309C8835166BC46F00E798E2 /* HeadingAngleSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8825166BC46F00E798E2 /* HeadingAngleSmall@2x.png */; };
+		309C8836166BC46F00E798E2 /* LoadingTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8826166BC46F00E798E2 /* LoadingTile.png */; };
+		309C8837166BC46F00E798E2 /* LoadingTileZoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8827166BC46F00E798E2 /* LoadingTileZoom.png */; };
+		309C8838166BC46F00E798E2 /* marker-blue-withletter.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8828166BC46F00E798E2 /* marker-blue-withletter.png */; };
+		309C8839166BC46F00E798E2 /* marker-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8829166BC46F00E798E2 /* marker-blue.png */; };
+		309C883A166BC46F00E798E2 /* marker-red-withletter.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C882A166BC46F00E798E2 /* marker-red-withletter.png */; };
+		309C883B166BC46F00E798E2 /* marker-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C882B166BC46F00E798E2 /* marker-red.png */; };
+		309C883C166BC46F00E798E2 /* TrackingDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C882C166BC46F00E798E2 /* TrackingDot.png */; };
+		309C883D166BC46F00E798E2 /* TrackingDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C882D166BC46F00E798E2 /* TrackingDot@2x.png */; };
+		309C883E166BC46F00E798E2 /* TrackingDotHalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C882E166BC46F00E798E2 /* TrackingDotHalo.png */; };
+		309C883F166BC46F00E798E2 /* TrackingDotHalo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C882F166BC46F00E798E2 /* TrackingDotHalo@2x.png */; };
+		309C8840166BC46F00E798E2 /* TrackingHeading.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8830166BC46F00E798E2 /* TrackingHeading.png */; };
+		309C8841166BC46F00E798E2 /* TrackingHeading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8831166BC46F00E798E2 /* TrackingHeading@2x.png */; };
+		309C8842166BC46F00E798E2 /* TrackingLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8832166BC46F00E798E2 /* TrackingLocation.png */; };
+		309C8843166BC46F00E798E2 /* TrackingLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 309C8833166BC46F00E798E2 /* TrackingLocation@2x.png */; };
 		423502981623F825003E7E8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423502971623F825003E7E8B /* UIKit.framework */; };
 		4235029A1623F825003E7E8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423502991623F825003E7E8B /* Foundation.framework */; };
 		4235029C1623F825003E7E8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4235029B1623F825003E7E8B /* CoreGraphics.framework */; };
@@ -45,6 +61,22 @@
 /* Begin PBXFileReference section */
 		019244CC165499E50071F8BC /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = ../../MapView/MapView.xcodeproj; sourceTree = "<group>"; };
 		0192450E16549F490071F8BC /* routeme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = routeme.plist; sourceTree = "<group>"; };
+		309C8824166BC46F00E798E2 /* HeadingAngleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HeadingAngleSmall.png; path = ../../../MapView/Map/Resources/HeadingAngleSmall.png; sourceTree = "<group>"; };
+		309C8825166BC46F00E798E2 /* HeadingAngleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HeadingAngleSmall@2x.png"; path = "../../../MapView/Map/Resources/HeadingAngleSmall@2x.png"; sourceTree = "<group>"; };
+		309C8826166BC46F00E798E2 /* LoadingTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoadingTile.png; path = ../../../MapView/Map/Resources/LoadingTile.png; sourceTree = "<group>"; };
+		309C8827166BC46F00E798E2 /* LoadingTileZoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoadingTileZoom.png; path = ../../../MapView/Map/Resources/LoadingTileZoom.png; sourceTree = "<group>"; };
+		309C8828166BC46F00E798E2 /* marker-blue-withletter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marker-blue-withletter.png"; path = "../../../MapView/Map/Resources/marker-blue-withletter.png"; sourceTree = "<group>"; };
+		309C8829166BC46F00E798E2 /* marker-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marker-blue.png"; path = "../../../MapView/Map/Resources/marker-blue.png"; sourceTree = "<group>"; };
+		309C882A166BC46F00E798E2 /* marker-red-withletter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marker-red-withletter.png"; path = "../../../MapView/Map/Resources/marker-red-withletter.png"; sourceTree = "<group>"; };
+		309C882B166BC46F00E798E2 /* marker-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "marker-red.png"; path = "../../../MapView/Map/Resources/marker-red.png"; sourceTree = "<group>"; };
+		309C882C166BC46F00E798E2 /* TrackingDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingDot.png; path = ../../../MapView/Map/Resources/TrackingDot.png; sourceTree = "<group>"; };
+		309C882D166BC46F00E798E2 /* TrackingDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingDot@2x.png"; path = "../../../MapView/Map/Resources/TrackingDot@2x.png"; sourceTree = "<group>"; };
+		309C882E166BC46F00E798E2 /* TrackingDotHalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingDotHalo.png; path = ../../../MapView/Map/Resources/TrackingDotHalo.png; sourceTree = "<group>"; };
+		309C882F166BC46F00E798E2 /* TrackingDotHalo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingDotHalo@2x.png"; path = "../../../MapView/Map/Resources/TrackingDotHalo@2x.png"; sourceTree = "<group>"; };
+		309C8830166BC46F00E798E2 /* TrackingHeading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingHeading.png; path = ../../../MapView/Map/Resources/TrackingHeading.png; sourceTree = "<group>"; };
+		309C8831166BC46F00E798E2 /* TrackingHeading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingHeading@2x.png"; path = "../../../MapView/Map/Resources/TrackingHeading@2x.png"; sourceTree = "<group>"; };
+		309C8832166BC46F00E798E2 /* TrackingLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackingLocation.png; path = ../../../MapView/Map/Resources/TrackingLocation.png; sourceTree = "<group>"; };
+		309C8833166BC46F00E798E2 /* TrackingLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TrackingLocation@2x.png"; path = "../../../MapView/Map/Resources/TrackingLocation@2x.png"; sourceTree = "<group>"; };
 		423502931623F825003E7E8B /* Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423502971623F825003E7E8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		423502991623F825003E7E8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +124,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		309C8822166BC45100E798E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				309C8824166BC46F00E798E2 /* HeadingAngleSmall.png */,
+				309C8825166BC46F00E798E2 /* HeadingAngleSmall@2x.png */,
+				309C8826166BC46F00E798E2 /* LoadingTile.png */,
+				309C8827166BC46F00E798E2 /* LoadingTileZoom.png */,
+				309C8828166BC46F00E798E2 /* marker-blue-withletter.png */,
+				309C8829166BC46F00E798E2 /* marker-blue.png */,
+				309C882A166BC46F00E798E2 /* marker-red-withletter.png */,
+				309C882B166BC46F00E798E2 /* marker-red.png */,
+				309C882C166BC46F00E798E2 /* TrackingDot.png */,
+				309C882D166BC46F00E798E2 /* TrackingDot@2x.png */,
+				309C882E166BC46F00E798E2 /* TrackingDotHalo.png */,
+				309C882F166BC46F00E798E2 /* TrackingDotHalo@2x.png */,
+				309C8830166BC46F00E798E2 /* TrackingHeading.png */,
+				309C8831166BC46F00E798E2 /* TrackingHeading@2x.png */,
+				309C8832166BC46F00E798E2 /* TrackingLocation.png */,
+				309C8833166BC46F00E798E2 /* TrackingLocation@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		423502881623F825003E7E8B = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +188,7 @@
 				423502AF1623F825003E7E8B /* MMViewController.h */,
 				423502B01623F825003E7E8B /* MMViewController.m */,
 				423502B21623F825003E7E8B /* MMViewController.xib */,
+				309C8822166BC45100E798E2 /* Resources */,
 				4235029E1623F825003E7E8B /* Supporting Files */,
 			);
 			indentWidth = 2;
@@ -230,6 +286,22 @@
 				423502AE1623F825003E7E8B /* Default-568h@2x.png in Resources */,
 				423502B41623F825003E7E8B /* MMViewController.xib in Resources */,
 				0192450F16549F490071F8BC /* routeme.plist in Resources */,
+				309C8834166BC46F00E798E2 /* HeadingAngleSmall.png in Resources */,
+				309C8835166BC46F00E798E2 /* HeadingAngleSmall@2x.png in Resources */,
+				309C8836166BC46F00E798E2 /* LoadingTile.png in Resources */,
+				309C8837166BC46F00E798E2 /* LoadingTileZoom.png in Resources */,
+				309C8838166BC46F00E798E2 /* marker-blue-withletter.png in Resources */,
+				309C8839166BC46F00E798E2 /* marker-blue.png in Resources */,
+				309C883A166BC46F00E798E2 /* marker-red-withletter.png in Resources */,
+				309C883B166BC46F00E798E2 /* marker-red.png in Resources */,
+				309C883C166BC46F00E798E2 /* TrackingDot.png in Resources */,
+				309C883D166BC46F00E798E2 /* TrackingDot@2x.png in Resources */,
+				309C883E166BC46F00E798E2 /* TrackingDotHalo.png in Resources */,
+				309C883F166BC46F00E798E2 /* TrackingDotHalo@2x.png in Resources */,
+				309C8840166BC46F00E798E2 /* TrackingHeading.png in Resources */,
+				309C8841166BC46F00E798E2 /* TrackingHeading@2x.png in Resources */,
+				309C8842166BC46F00E798E2 /* TrackingLocation.png in Resources */,
+				309C8843166BC46F00E798E2 /* TrackingLocation@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
